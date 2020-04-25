@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = process.env.clientId; // Your client id
 var client_secret = process.env.clientSecret; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://spotifyapi1.herokuapp.com/callback'; // Your redirect uri
 
 const PORT = process.env.PORT || 8888;
 
