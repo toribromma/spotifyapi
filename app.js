@@ -52,7 +52,7 @@ app.get('/login', function(req, res) {
   var scope = `user-read-private user-read-email streaming 
   user-read-playback-state user-top-read playlist-read-collaborative 
   user-modify-playback-state user-read-currently-playing playlist-read-private 
-  user-follow-read user-read-recently-played user-library-read user-read-birthdate user-modify-library `;
+  user-follow-read user-read-recently-played user-library-read user-read-birthdate user-modify-library web-playback `;
   res.redirect('https://accounts.spotify.com/authorize?' +
     querystring.stringify({
       response_type: 'code',
